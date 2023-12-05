@@ -26,18 +26,18 @@ DB_PASSWORD=password
 Написал свою упрощенную авторизацию. 
 Описание работы через постман с иллюстрациями: 
 Регистрация менеджера по маршруту post api/v1/auth/register
-![](/var/www/Raketa/images/1.png)
+![](./images/1.png)
 
 Аутентификация: post api/v1/auth/login
-![](/var/www/Raketa/images/2.png)
+![](./images/2.png)
 
 Необходимо добавить header Authorization, целиком поле plainTextToken из предыдущего шага, и на 
 всех действиях, требующих авторизации нужно вставлять токен, соответственно.
 Создание пользователя post /api/v1/customer/create
-![](/var/www/Raketa/images/3.png)
+![](./images/3.png)
 
 Создание записи post /api/v1/record/create
-![](/var/www/Raketa/images/4.png)
+![](./images/4.png)
 
 Получение списка записей согласено ТЗ: get /api/v1/record/list
-![](/var/www/Raketa/images/5.png)
+![](./images/5.png)
